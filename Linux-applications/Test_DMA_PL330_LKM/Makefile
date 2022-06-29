@@ -2,7 +2,7 @@
 TARGET = test_DMA_PL330_LKM
 
 #Compile with the toolchain from Angstrom 2013.12 compilation
-CROSS_COMPILE := ~/angstrom-socfpga/build/tmp-angstrom_v2013_12-eglibc/sysroots/x86_64-linux/usr/bin/armv7ahf-vfp-neon-angstrom-linux-gnueabi/arm-angstrom-linux-gnueabi-
+CROSS_COMPILE := arm-linux-gnueabihf-
 #Compile from SOC EDS toolchain (from Altera Embedded Command Shell )
 #CROSS_COMPILE := arm-linux-gnueabihf-
 

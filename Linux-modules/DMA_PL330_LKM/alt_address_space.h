@@ -505,8 +505,8 @@ typedef enum ALT_ACP_ID_MAP_PAGE_e
 
 //Function added to original hwlib to be able to access ACP ID MAPPER
 //From a linux module through viryual addresses
-ALT_STATUS_CODE alt_acpidmap_iomap();
-void print_acpidmap_regs();
+ALT_STATUS_CODE alt_acpidmap_iomap(void);
+void print_acpidmap_regs(void);
 
 /******************************************************************************/
 /*!
@@ -789,6 +789,8 @@ ALT_STATUS_CODE alt_acp_id_map_write_options_get(const uint32_t output_id,
 /*! @} */
 
 /*! @} */
+
+ALT_STATUS_CODE alt_acpidmap_iounmap(void);
 
 #endif  /* __ASSEMBLY__ */
 

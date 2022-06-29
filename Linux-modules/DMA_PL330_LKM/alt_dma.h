@@ -387,12 +387,12 @@ ALT_DMA_CFG_t;
  * Remap DMAC and RSTMGR to have virtualo addresses for them.
  * This is needed to access these peripherals from kernel space.
  * */
-ALT_STATUS_CODE alt_dma_iomap();
+ALT_STATUS_CODE alt_dma_iomap(void);
 
 /*!
  * Unmap DMAC and RSTMGR 
  * */
-ALT_STATUS_CODE alt_dma_iounmap();
+ALT_STATUS_CODE alt_dma_iounmap(void);
 
 
 /*!

@@ -39,3 +39,6 @@
 **/FPGA-hardware/**/**/*.stp
 **/FPGA-hardware/**/**/*.cof
 **/FPGA-hardware/**/**/*.bak
+
+*.ko
+.vscode
